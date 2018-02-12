@@ -6,7 +6,7 @@ class Parcel
   end
 
   def volume_calculator
-
+    @volume = @width * @length * @height
   end
 
 end
